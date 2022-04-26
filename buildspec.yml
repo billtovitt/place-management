@@ -1,0 +1,12 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - echo "******** Uploading to S3 ********"
+      - aws s3 sync build/ s3://onemap-admin-app-client

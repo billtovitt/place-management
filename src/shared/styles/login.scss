@@ -1,0 +1,26 @@
+#login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .login-wrapper {
+    border: 1px solid #babbbb;
+    padding: 2%;
+    background: #f8fcff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  .login-form {
+    width: 340px;
+  }
+
+  .login-form-button {
+    width: 100%;
+  }
+
+  .login-logo {
+    width: 340px;
+    height: auto;
+  }
+}

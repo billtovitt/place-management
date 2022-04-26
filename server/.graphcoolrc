@@ -1,0 +1,4 @@
+targets:
+  OneMap: shared-ap-northeast-1/cjb30vkvv434c0146sjjn4d4w
+  test: shared-eu-west-1/cj4qcxib2t1v001963mlviv45
+  default: OneMap

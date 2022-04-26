@@ -1,0 +1,8 @@
+type AuthenticateUserFBPayload {
+  id: ID!
+  token: String!
+}
+
+extend type Mutation {
+  authenticateFBUser(facebookToken: String!): AuthenticateUserFBPayload!
+}

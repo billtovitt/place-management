@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: normal;
+  src: url("shared/fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
+}
+
+.circle {
+  border-radius: 50%;
+	width: 14px;
+  height: 14px;
+  
+  &.online {
+    background: green;
+  }
+  &.offline {
+    background: silver;
+  }
+}
+
+.is-right {
+  float: right;
+}
+
+.container {
+  background: #fff;
+  padding: 2%;
+  min-height: 360px;
+  margin-top: 5px;
+}
+
+.input-button-suffix {
+  .ant-input-suffix {
+    right: 0;
+  }
+}
+
+.tag-wrapper {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+
+  .button-new-tag {
+    background: #fff;
+    border-style: dashed;
+  }
+}
+
+.logo {
+  height: 90px;
+  width: 100%;
+  
+  .ic-logo {
+    display: flex;
+    width: auto;
+    height: inherit;
+    background-size: contain;
+    background-image: url(../src/shared/img/logo.png);
+    background-repeat: no-repeat;
+  }
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.is-fullwidth {
+  width: 100%;
+}
+
+.is-fullheight {
+  height: 100%;
+}
+
+.main-layout {
+  height: 100vh;
+
+  .ant-layout-content {
+    margin: 24px 16px 0;
+  }
+}
+
+.custom-switch {
+  .ant-row.ant-form-item {
+    display: flex;
+    align-items: center;
+  }
+  .ant-form-item-label {
+    padding: 0;
+  }
+}
+
+.form-fields {
+  padding: 24px;
+  padding-bottom: 12px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.is-danger {
+  color: red;
+}
+
+.couldinary {
+  display: flex;
+  flex-wrap: wrap;
+
+  .couldinary-img {
+    width: 104px;
+    height: 104px;
+  }
+}
